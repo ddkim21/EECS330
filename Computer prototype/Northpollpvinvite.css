@@ -1,0 +1,62 @@
+.box
+{
+    position: relative;
+    width: 375px;
+    height: 627px;
+    border: 3px solid darkred;
+    margin-left:510px;
+    margin-top:100px;
+    background-color:darkred;
+    padding-top: 35px;
+}
+.Pic {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	margin-left:60px;
+	margin-top: 30px;
+}
+.instruct {
+	font-family: verdana;
+	font-size: 14px;
+	font-style: bold;
+	width: 200px;
+	height: 40px;
+	float: right;
+	background-color: white;
+	opacity: 0.6;
+	color: darkred;
+	text-shadow:inset 0px 0px 2px #EEEEEE;
+	margin-right: 35px;
+	margin-top: 30px;
+	border-radius: 2px;
+	border:none;
+	box-shadow: 0px 0px 2px #EEEEEE;
+
+}
+#title {
+	font-family: verdana;
+	font-size: 32px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: white;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+#text {
+	font-family: verdana;
+	font-size: 16px;
+	margin-right: 30px;
+	margin-left: 40px;
+	margin-top: 10px;
+	color: white;
+}
+#subtitle {
+	font-family: verdana;
+	font-size: 26px;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 40px;
+	color: white;
+}
