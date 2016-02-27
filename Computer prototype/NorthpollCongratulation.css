@@ -1,0 +1,36 @@
+#BackHomepage {
+	font-family: verdana;
+	font-size: 14px;
+	font-style: bold;
+	width: 220px;
+	height: 40px;
+	float: right;
+	background-color: white;
+	opacity: 0.6;
+	color: darkred;
+	text-shadow:inset 0px 0px 2px #EEEEEE;
+	margin-right: 80px;
+	margin-top: 30px;
+	border-radius: 2px;
+	border:none;
+	box-shadow: 0px 0px 2px #EEEEEE;
+
+}
+#highlight {
+	font-family: verdana;
+	font-size: 28px;
+	margin-top: 120px;
+	margin-bottom: 40px;
+	color: white;
+    text-align: center;
+}
+#text1 {
+	font-family: verdana;
+	font-size: 16px;
+	margin-top: 60px;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: white;
+	opacity: 0.7;
+	text-align: center;
+}
