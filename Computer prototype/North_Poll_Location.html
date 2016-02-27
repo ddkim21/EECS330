@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" > <!-- language use english -->
+
+<head>
+	<link rel="stylesheet" href="NorthpollLocation.css" /> <!-- include css file -->
+	<link rel="stylesheet" href="box.css"/>
+    <meta charset="utf-8" />
+	<title>North Poll_Create Poll</title>
+</head>
+
+<body>
+<div class="box">
+	     <p class="heading"> Location Based Access:</p><p class= "instruct"> Choose your radius: </p>
+         <p><button class="but1"> 0.3 Miles </button></p>
+         <p><button class="but1"> 2 Miles </button></p>
+         <p><button class="but1" > 5 Miles </button></p>
+         <p><button class="but1"> 10 Miles </button></p>
+         <p class ="instruct"> Or enter a value ( In Miles):
+	     <form>
+		  <input id="NumRangeStart"></input> 
+	     </form>
+         </p>
+         <p class= "instruct"> Only people in the radius set by you can access your poll. You can further secure your audience by adding a password.</p>
+         <button class="but1"> Add Password </button>
+        <div>
+        <img id="Back" class="Pic" src="Back.png" onClick="location.href='North_Poll_PublishPoll.html'">	
+        <img id="Forward" class="Pic" src="Forward.png" onClick="location.href='North_Poll_Published.html'">
+        </div>
+</div>
+
+</body>
+</html>
