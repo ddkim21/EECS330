@@ -9,7 +9,9 @@
 	border-radius: 4px;
 	margin-left:15px;
 	margin-right: 15px;
+	margin-top: 20px;
 }
+
 #NameID, #Password {
     width: 200px;
     height: 35px;
@@ -29,11 +31,25 @@
 	margin:10px;
 }
 #Signinpart {
-	text-align: center;
+	text-align: left;
 	width: 100%;
+	color: lightgray;
+	margin-left: 7.5px;
+	line-height: 170%;
 }
 #text {
 	font-size: 12px;
 	font-family: cursive;
     text-align: center;
+}
+
+#logospace {
+	margin-top: 40px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#buttonspace {
+	text-align: center;
 }
