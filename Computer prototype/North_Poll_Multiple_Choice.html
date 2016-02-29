@@ -16,6 +16,9 @@
 			<input id = "choice4" class = "selection" value = "Option 4" style="visibility: hidden;"></input>
 			<input id = "choice5" class = "selection" value = "Option 5" style="visibility: hidden;"></input>
 			<input id = "choice6" class = "selection" value = "Option 6" style="visibility: hidden;"></input>
+			<input id = "choice7" class = "selection" value = "Option 7" style="visibility: hidden;"></input>
+			<input id = "choice8" class = "selection" value = "Option 8" style="visibility: hidden;"></input>
+
 
 		</form>
 
@@ -29,7 +32,7 @@
 			var selected_choice = "choice" + choice_counter.toString();
 			var invis_choice = document.getElementById(selected_choice);
 			invis_choice.style.visibility="visible";
-			add_button.style.top = (choice_counter * 80);
+			add_button.style.top = 170 + ((choice_counter - 2) * 65);
 			choice_counter += 1;
 		}
 	</script>
