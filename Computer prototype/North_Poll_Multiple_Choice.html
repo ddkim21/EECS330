@@ -1,0 +1,34 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Multiple Choice</title>
+	<link rel="stylesheet" href="Multiple_Choice.css" /> <!-- include css file -->
+	<link rel="stylesheet" href="box.css"/>
+	<meta charset="utf-8" />
+</head>
+
+<body>
+	<div class="box">
+		<form id="selections">
+			<input id = "choice1" class = "selection" value = "Option 1"></input>
+			<input id = "choice2" class = "selection" value = "Option 2"></input>
+			<input id = "choice3" class = "selection" value = "Option 3" style="visibility: hidden;"></input>
+			<input id = "choice4" class = "selection" value = "Option 4" style="visibility: hidden;"></input>
+			<input id = "choice4" class = "selection" value = "Option 5" style="visibility: hidden;"></input>
+			<input id = "choice4" class = "selection" value = "Option 6" style="visibility: hidden;"></input>
+
+		</form>
+
+		<button id="add" onClick="addSelection()">&plus;</button>
+	</div>
+
+	<script>
+		var choice_counter = 3;
+		var add_button = document.getElementById("add");
+		function addSelection(){
+			var invis_choice = document.getElementById("choice"+choice_counter.toString());
+
+		}
+	</script>
+</body>
+</html>
