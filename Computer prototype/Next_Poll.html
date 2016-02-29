@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <link rel="stylesheet" type="text/css" href="box.css"></link>
-	<title>Trending Now!</title>
+	<title>New Poll</title>
 </head>
 <style>
 	#setting {
@@ -26,7 +26,7 @@
 	}
 	.pollback{
 		font-family: Times;
-		font-size: 20px;
+		font-size: 18px;
 		position: relative;
 		/*color: blue;*/
 		margin-left: 20px;
@@ -43,7 +43,7 @@
 	}
 	.meh{
 		font-family: verdana;
-		font-size: 120%;
+		font-size: 110%;
 		position: relative;
 		width: 290px;
 		padding: 10px;
@@ -106,26 +106,21 @@
 	function myFunction() {
 		// var img = new Image();
 		// img.src = "my-icons-collection/png/pie.png";
-    	alert("The Sample Poll results are as follows: 45% - Me Likey 30% - What! No.. 25% - Meh..!");
-}
-function on() {
-		// var img = new Image();
-		// img.src = "my-icons-collection/png/pie.png";
-    	alert("This is the first poll in category!");
+    	alert("The Sample Poll results are as follows: 47% - Rock's Gonna ***** 33% - Trump will Run 25% - Never gonna happen");
 }
 </script>
 <body>
 <div class="box">
 	<img id="trend" src="my-icons-collection/png/trending.png"></img>
 	<img id="setting" src="my-icons-collection/png/icon-70367.png" onClick="location.href='North_Poll_Categories.html'">
-	<div class="pollback">Do You like this application design?
-	<input onClick="myFunction()" type="button" class="meh" value="Me Likey !"></input>
-	<input onClick="myFunction()" type="button" class="meh" value="What! No.."></input>
-	<input onClick="myFunction()" type="button" class="meh" value="Meh..!"></input>
+	<div class="pollback">Do you think Trump should have a WWE duel with THE ROCK! ?
+	<input onClick="myFunction()" type="button" class="meh" value="Rock's gonna *****"></input>
+	<input onClick="myFunction()" type="button" class="meh" value="Trump will Run!"></input>
+	<input onClick="myFunction()" type="button" class="meh" value="Never gonna happen"></input>
 	</div>	
-	<button class="scroll" onClick="on()">Previous</button>
+	<button class="scroll" onClick="location.href='Trending_Now.html'">Previous</button>
 	<button  onClick="myFunction()" class="scroll">See Result</button>
-	<button class="scroll" onClick="location.href='Next_Poll.html'">Next</button>
+	<button class="scroll" onClick="location.href='Trending_Now.html'">Next</button>
 	<img id="back" src="Back.png" onClick="location.href='North_Poll_Categories.html'">
 	<img id="Home" src="web.png" onClick="location.href='North_Poll_Homepage.html'">
 </div>
