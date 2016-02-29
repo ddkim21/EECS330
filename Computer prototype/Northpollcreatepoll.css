@@ -12,7 +12,7 @@
 	height: 40px;
 	border-radius: 4px;
 	margin-left:10px;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 .CrtPol {
 	background-color: white;
@@ -27,6 +27,7 @@
     margin-top: 10px;
     border-radius: 10px;
     border:2px black solid;
+    padding-top: 9px;
 
  }
 .CrtPol button:hover{
@@ -53,4 +54,13 @@
 	opacity: 0.7;
 	margin-top: 20px;
 	margin-left: 50px;
+}
+#Set {
+	position: relative;
+	width: 20px;
+	height: 20px;
+    margin-bottom: 30px;
+    margin-right: 220px;
+    margin-left: 10px;
+	opacity: 0.7;
 }
