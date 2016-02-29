@@ -1,34 +1,3 @@
-#Back {
-	position: relative;
-	width: 40px;
-	height: 40px;
-	border-radius: 4px;
-	margin-top: 20px;
-	float: left;
-	margin-left: 60px;;
-}
-#Forward {
-	position: relative;
-	width: 40px;
-	height: 40px;
-	border-radius: 4px;
-	margin-top: 20px;
-	margin-right: 60px;
-	float: right;
-}
-.Pic2 {
-	position: relative;
-	width: 300px;
-	height: 200px;
-	border-radius: 4px;
-	margin-top: 20px;
-	margin-right: 20px;
-	margin-left: 40px
-	
-}
-
-
-
 .but1 {
 	position: relative;
 	width: 120px;
@@ -44,59 +13,31 @@
 	color: white;
 	text-shadow:inset 0px 0px 2px #EEEEEE;
 	margin-left: 35px;
-	margin-top: 30px;
+	margin-top: 40px;
 
 }
 .heading {
 	font-family: verdana;
-	font-size: 20px;
+	font-size: 26px;
 	color: white;
 	text-shadow:inset 0px 0px 2px #EEEEEE;
 	margin-left: 35px;
-	margin-top: 15px;
+	margin-top: 60px;
 
-}
-.subinstruct {
-    font-family: verdana;
-	font-size: 14px;
-	color: white;
-	text-shadow:inset 0px 0px 2px #EEEEEE;
-	margin-left: 50px;
-	margin-top: 5px;
-}
-#NumRangeStart,#NumRangeEnd {
-	margin-left: 120px;
-	border:none;
-	background-color: white;
-	width: 50px;
-	height: 30px;
-	border-radius: 2px;
-}
-
-.but1:hover, .but2.active
-{
-    border-top:Green 3px solid;
-    border-bottom:Green 3px solid;
-}
-.but1:active, .but2.active
-{
-    border-top:Green 2px solid;
-    border-bottom:Green 2px solid;
-    background: Green
 }
 .but2 {
+	position: relative;
 	font-family: verdana;
-	font-size: 14px;
+	font-size: 16px;
 	font-style: bold;
-	width: 150px;
+	width: 200px;
 	height: 40px;
 	float: right;
 	background-color: white;
-	opacity: 0.6;
 	color: darkred;
 	text-shadow:inset 0px 0px 2px #EEEEEE;
-	margin-right: 110px;
-	margin-top: 30px;
+	margin-right: 90px;
+	margin-top: 20px;
 	border-radius: 16px;
 	border:none;
 	box-shadow: 0px 0px 2px #EEEEEE;
@@ -106,4 +47,30 @@
 	width: 300px;
 	height: 200px;
 	margin-left: 35px;
-	]
+}
+#Signout {
+	font-family: verdana;
+	font-size: 12px;
+	font-style: bold;
+	width: 120px;
+	height: 20px;
+	float: right;
+	background-color: white;
+	opacity: 0.6;
+	color: darkred;
+	text-shadow:inset 0px 0px 2px #EEEEEE;
+	margin-right: 30px;
+	margin-top: 60px;
+	border-radius: 16px;
+	border:none;
+	box-shadow: 0px 0px 2px #EEEEEE;
+
+}
+#Set {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 15px;
+	opacity: 0.7;
+}

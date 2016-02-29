@@ -21,17 +21,25 @@
     font-size: 13px;
     border:1px #AAAAAA solid;
 }
-#Signup,#Login,#Yes,#no {
+#Login {
 	background-color: #FFFFFF;
 	width: 120px;
 	height: 30px;
 	border-radius: 10px;
-/*	box-shadow: inset 0px 0px 16px #444444;*/
 	border:1px #AAAAAA solid;
 	font-size: 14px;
-	margin:20px 10px 10px 10px;
+	margin:15px 10px 10px 10px;
+}
+#Signup {
+	width: 120px;
+	height: 30px;
+	border-radius: 10px;
+	border:1px #AAAAAA solid;
+	font-size: 14px;
+	margin:30px 10px 10px 10px;
 }
 #Signinpart {
+	margin-top: 50px;
 	text-align: center;
 	width: 100%;
 }
