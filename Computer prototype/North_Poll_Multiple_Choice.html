@@ -14,8 +14,8 @@
 			<input id = "choice2" class = "selection" value = "Option 2"></input>
 			<input id = "choice3" class = "selection" value = "Option 3" style="visibility: hidden;"></input>
 			<input id = "choice4" class = "selection" value = "Option 4" style="visibility: hidden;"></input>
-			<input id = "choice4" class = "selection" value = "Option 5" style="visibility: hidden;"></input>
-			<input id = "choice4" class = "selection" value = "Option 6" style="visibility: hidden;"></input>
+			<input id = "choice5" class = "selection" value = "Option 5" style="visibility: hidden;"></input>
+			<input id = "choice6" class = "selection" value = "Option 6" style="visibility: hidden;"></input>
 
 		</form>
 
@@ -26,8 +26,11 @@
 		var choice_counter = 3;
 		var add_button = document.getElementById("add");
 		function addSelection(){
-			var invis_choice = document.getElementById("choice"+choice_counter.toString());
-
+			var selected_choice = "choice" + choice_counter.toString();
+			var invis_choice = document.getElementById(selected_choice);
+			invis_choice.style.visibility="visible";
+			add_button.style.top = (choice_counter * 80);
+			choice_counter += 1;
 		}
 	</script>
 </body>
