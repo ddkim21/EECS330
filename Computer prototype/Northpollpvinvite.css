@@ -12,8 +12,7 @@
 	height: 40px;
 	border-radius: 4px;
 	margin-left:100px;
-	margin-top: 30px;
-	float: bottom;
+	margin-top: 45px;
 }
 .instruct {
 	font-family: verdana;
@@ -36,7 +35,7 @@
 #title {
 	font-family: verdana;
 	font-size: 32px;
-	margin-top: 20px;
+	margin-top: 50px;
 	margin-bottom: 10px;
 	color: white;
 	margin-left: 30px;
@@ -57,4 +56,22 @@
 	margin-left: 30px;
 	margin-top: 40px;
 	color: white;
+}
+#Back {
+	position: relative;
+	float: left;
+	margin-left: 60px;;
+}
+#Forward {
+	margin-right: 60px;
+	float: right;
+}
+#Set {
+	position: relative;
+	width: 20px;
+	height: 20px;
+    margin-top: 5px;
+    margin-right: 90px;
+    margin-left: 10px;
+	opacity: 0.7;
 }
