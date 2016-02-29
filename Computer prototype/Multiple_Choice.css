@@ -1,0 +1,21 @@
+#selections {
+	margin-top: 40px;
+}
+
+.selection {
+	display: block;
+	width: 315px;
+    height: 35px;
+    margin: 15px 0px 30px 30px;
+    font-family: cursive;
+    font-size: 13px;
+    border:1px #AAAAAA solid;
+}
+
+#add {
+	position: absolute;
+	left: 180px;
+	top: 170px;
+	font-size: 24px;
+	background-color: lightgreen;
+}
