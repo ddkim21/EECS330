@@ -1,67 +1,71 @@
 .instruct {
 	font-family: verdana;
-	font-size: 20px;
+	font-size: 18px;
 	color: white;
 	text-shadow:inset 0px 0px 2px #EEEEEE;
 	margin-left: 35px;
-	margin-top: 40px;
+	margin-right: 35px;
+	margin-top: 50px;
 
 }
-/*.heading {
-	font-family: verdana;
-	font-size: 24px;
-	color: white;
-	text-shadow:inset 0px 0px 2px #EEEEEE;
-	margin-left: 35px;
-	margin-top: 40px;
-
-}*/
+#buttons { 
+	text-alig4: center;
+}
 .but1 {
 	position: relative;
 	font-family: verdana;
 	font-size: 16px;
 	font-style: bold;
-	width: 200px;
-	height: 40px;
+	width: 160px;
+	height: 25px;
 	float: right;
 	background-color: white;
 	color: darkred;
 	text-shadow:inset 0px 0px 2px #EEEEEE;
-	margin-right: 90px;
-	margin-top: 20px;
+	margin-top: 15px;
+	margin-right: 80px;
 	border-radius: 16px;
 	border:none;
 	box-shadow: 0px 0px 2px #EEEEEE;
 }
-#hi {
+.subinstruct {
 	position: relative;
-	width: 300px;
-	height: 200px;
-	margin-left: 35px;
-}
-#Signout {
-	font-family: verdana;
-	font-size: 12px;
-	font-style: bold;
-	width: 120px;
-	height: 20px;
-	float: right;
-	background-color: white;
-	opacity: 0.6;
-	color: darkred;
+    font-family: verdana;
+	font-size: 18px;
+	color: white;
 	text-shadow:inset 0px 0px 2px #EEEEEE;
-	margin-right: 30px;
-	margin-top: 60px;
-	border-radius: 16px;
-	border:none;
-	box-shadow: 0px 0px 2px #EEEEEE;
-
+	margin-left: 35px;
+	margin-top: 160px;
 }
 #Set {
 	width: 20px;
 	height: 20px;
 	float: left;
-	margin-top: 80px;
+	margin-top: 5px;
 	margin-left: 15px;
+	margin-right: 220px;
 	opacity: 0.7;
+}
+#Back {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	margin-top: 100px;
+	float: left;
+	margin-left: 60px;;
+}
+#Forward {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	margin-top: 60px;
+	margin-right: 60px;
+	float: right;
+}
+#NumRangeStart {
+	width: 160px;
+	height: 25px;
+	margin-left: 140px;
 }
