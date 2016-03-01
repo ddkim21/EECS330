@@ -11,3 +11,19 @@
     /*background-image: -webkit-radial-gradient(pink,red,darkred,red,darkred,red,darkred,red,darkred,red,darkred);*/
     /*background-image: url("my-icons-collection/png/iphone.png");*/
 }
+
+.back {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    float: left;
+}
+
+.forward {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    float:right;
+}
