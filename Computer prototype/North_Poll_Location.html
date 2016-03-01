@@ -10,22 +10,30 @@
 
 <body>
 <div class="box">
-	     <p class="heading"> Location Based Access:</p><p class= "instruct"> Choose your radius: </p>
-         <p><button class="but1"> 0.3 Miles </button></p>
-         <p><button class="but1"> 2 Miles </button></p>
-         <p><button class="but1" > 5 Miles </button></p>
-         <p><button class="but1"> 10 Miles </button></p>
-         <p class ="instruct"> Or enter a value ( In Miles):
-	     <form>
-		  <input id="NumRangeStart"></input> 
-	     </form>
-         </p>
-         <p class= "instruct"> Only people in the radius set by you can access your poll. You can further secure your audience by adding a password.</p>
+	     <!-- <p class="heading"> Location Based Access:</p> -->
+         <div id="buttons">
+         <p class= "instruct"> Choose your radius: </p>
+         <button class="but1"> 0.3 Miles </button>
+         <button class="but1"> 2 Miles </button>
+         <button class="but1" > 5 Miles </button>
+         <button class="but1"> 10 Miles </button>
+     </div>
+         <br>
+         <div>
+         <p class ="subinstruct"> Or enter a value in Miles:</p>
+		 <input id="NumRangeStart"></input> 
+        </div>
+        <div>
+         <p class= "instruct"> You can further secure your audience by adding a password.</p>
          <button class="but1" onClick="location.href='North_Poll_PvPassword.html'"> Add Password </button>
+     </div>
         <div>
         <img id="Back" class="Pic" src="Back.png" onClick="location.href='North_Poll_PublishPoll.html'">	
         <img id="Forward" class="Pic" src="Forward.png" onClick="location.href='North_Poll_Published.html'">
         </div>
+<div>
+<img id="Set" src="Setting.png">
+</div>
 </div>
 
 </body>
