@@ -1,0 +1,46 @@
+#selections {
+	margin-top: 40px;
+}
+
+.selection {
+	display: block;
+	width: 315px;
+    height: 35px;
+    margin: 15px 0px 30px 30px;
+    font-family: cursive;
+    font-size: 13px;
+    border:1px #AAAAAA solid;
+}
+
+#add {
+	position: absolute;
+	left: 170px;
+	top: 170px;
+	font-size: 24px;
+	background-color: lightgreen;
+}
+
+#remove {
+	position: absolute;
+	left: 135px;
+	top: 235px;
+	font-size: 24px;
+	background-color: darkgrey;
+	visibility: hidden;
+}
+.Pic{
+position: relative;
+width: 40px;
+top: -20px;
+}
+#Back{
+margin-left: 40px;
+margin-bottom: 70px;
+padding-right: 120px;
+}
+#Forward{
+	margin-right: 40px;
+	margin-bottom: 70px;
+	right: -90px;
+	/*padding-left: 120px;*/
+}
