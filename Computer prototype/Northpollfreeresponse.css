@@ -1,0 +1,66 @@
+#Back {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	margin-top: 80px;
+	float: left;
+	margin-left: 60px;;
+}
+#Forward {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	margin-top: 80px;
+	margin-right: 60px;
+	float: right;
+}
+.instruct {
+	font-family: verdana;
+	font-size: 20px;
+	color: white;
+	text-shadow:inset 0px 0px 2px #EEEEEE;
+	margin-left: 35px;
+	margin-top: 80px;
+
+}
+.subinstruct {
+    font-family: verdana;
+	font-size: 14px;
+	color: white;
+	text-shadow:inset 0px 0px 2px #EEEEEE;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+#Describe{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: verdana;
+	font-size: 20px;
+	color: white;
+}
+#Topic {
+	text-indent: 10px;
+	margin-top: 10px;
+	position: relative;
+	font-size: 20px;
+	width: 300px;
+	height:200px;
+	border-radius: 2px;
+	border: none;
+	box-shadow: 0px 0px 4px #EEEEEE;
+	margin-left: 35px;
+    font-family: verdana;
+    line-height: 20px;
+}
+#Set {
+	position: relative;
+	width: 20px;
+	height: 20px;
+    margin-top: 20px;
+    margin-right: 220px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+	opacity: 0.7;
+}

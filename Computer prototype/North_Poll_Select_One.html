@@ -1,0 +1,76 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Select One</title>
+	<link rel="stylesheet" href="North_poll_select_One.css"> <!-- include css file -->
+	<link rel="stylesheet" href="box.css">
+	<link rel="stylesheet" href="arrows.css">
+	<meta charset="utf-8">
+</head>
+
+<body>
+	
+	<div class="box">
+		<p class="texxt" align="center"><b> USER CAN SELECT ONLY ONE!</b></p>
+		<div>
+		<form id="selections">
+			<input id = "choice1" class = "selection" value = "Option 1"></input>
+			<input id = "choice2" class = "selection" value = "Option 2"></input>
+			<input id = "choice3" class = "selection" value = "Option 3" style="visibility: hidden;"></input>
+			<input id = "choice4" class = "selection" value = "Option 4" style="visibility: hidden;"></input>
+			<input id = "choice5" class = "selection" value = "Option 5" style="visibility: hidden;"></input>
+			<input id = "choice6" class = "selection" value = "Option 6" style="visibility: hidden;"></input>
+			<input id = "choice7" class = "selection" value = "Option 7" style="visibility: hidden;"></input>
+			<input id = "choice8" class = "selection" value = "Option 8" style="visibility: hidden;"></input>
+		</form>
+		
+		<button id="add" onClick="addSelection()">&plus;</button>
+		<button id="remove" onClick="removeSelection()">&minus;</button>
+		</div>
+		<img id="Back" class="Pic" src="Back.png" onClick="location.href='North_Poll_CreatPoll.html'">	
+        <img id="Forward" class="Pic" src="Forward.png" onClick="location.href='North_Poll_PublishPoll.html'">
+	</div>
+
+	<script>
+		const max_options = 8;
+		const min_options = 2;
+		const left_button = 135, right_button = 205, center_button = 170, spacing = 65;
+		var choice_counter = 3;
+		var add_button = document.getElementById("add");
+		var remove_button = document.getElementById("remove");
+		function addSelection(){
+			var selected_choice = "choice" + choice_counter.toString();
+			var invis_choice = document.getElementById(selected_choice);
+			invis_choice.style.visibility="visible";
+			choice_counter += 1;
+			add_button.style.top = center_button + ((choice_counter - 3) * spacing);
+			remove_button.style.top = center_button + ((choice_counter - 3) * spacing);
+			if (choice_counter == (max_options+1)) {
+				add_button.style.visibility="hidden";
+				remove_button.style.left = center_button;
+			}
+			if (choice_counter == (min_options+2)) {
+				remove_button.style.visibility="visible";
+				add_button.style.left=right_button;
+			}
+		}
+
+		function removeSelection() {
+			if (choice_counter == (max_options+1)) {
+				add_button.style.visibility="visible";
+				remove_button.style.left = left_button;
+			}
+			choice_counter -= 1;
+			var selected_choice = "choice" + choice_counter.toString();
+			var make_invisible = document.getElementById(selected_choice);
+			make_invisible.style.visibility="hidden";
+			add_button.style.top = center_button + ((choice_counter-3) * spacing);
+			remove_button.style.top = center_button + ((choice_counter-3) * spacing);
+			if (choice_counter == (min_options+1)) {
+				remove_button.style.visibility="hidden";
+				add_button.style.left=center_button;
+			}
+		}
+	</script>
+</body>
+</html>
