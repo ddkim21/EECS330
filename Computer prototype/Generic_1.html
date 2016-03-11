@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <link rel="stylesheet" type="text/css" href="box.css"></link>
-	<title>New Poll</title>
+	<title>Generic</title>
 </head>
 <style>
 	#setting {
@@ -26,7 +26,7 @@
 	}
 	.pollback{
 		font-family: Times;
-		font-size: 18px;
+		font-size: 20px;
 		position: relative;
 		/*color: blue;*/
 		margin-left: 20px;
@@ -43,7 +43,7 @@
 	}
 	.meh{
 		font-family: verdana;
-		font-size: 110%;
+		font-size: 120%;
 		position: relative;
 		width: 290px;
 		padding: 10px;
@@ -53,12 +53,14 @@
 		margin-top: 20px;
 	}
 	.meh:hover{
-		/*color: yellow;*/
-		background:yellow;
+
+		background: yellow;
+		/*color: green;*/
 	}
 	.meh:active{
-		/*color: green;*/
-		background:green;
+		background: green;
+		color: yellow;
+		/*color: yellow;*/
 	}
 	#Home{
 		width: 50px;
@@ -73,8 +75,8 @@
 		background-color: white;
 	}
 	.scroll {
-		background-color: white;
 		font-family: verdana;
+		background-color: white;
 		height: 40px;
 		width: 98px;
 		margin-top: 10px;
@@ -99,14 +101,6 @@
     {
         background-color: orange;
     }
-    .meh:hover{
-		background: yellow;
-		/*color: green;*/
-	}
-	.meh:active{
-		background: green;
-		color: yellow;
-	}
     #back{
     	position: relative;
 		float: left;
@@ -124,21 +118,26 @@
 	function myFunction() {
 		// var img = new Image();
 		// img.src = "my-icons-collection/png/pie.png";
-    	alert("The Sample Poll results are as follows: 47% - Rock's Gonna ***** 33% - Trump will Run 25% - Never gonna happen");
+    	alert("The Sample Poll results are as follows: 93% - I stand by it! 5% - Crying is for losers 2% - Science B****h");
+}
+function on() {
+		// var img = new Image();
+		// img.src = "my-icons-collection/png/pie.png";
+    	alert("This is the first poll in category!");
 }
 </script>
 <body>
 <div class="box">
-	<img id="trend" src="my-icons-collection/png/trending.png"></img>
+	<img id="trend" src="category.jpg"></img>
 	<img id="setting" src="my-icons-collection/png/icon-70367.png" onClick="location.href='North_Poll_Categories.html'">
-	<div class="pollback">Do you think Trump should have a WWE duel with THE ROCK! ?
-	<input onClick="myFunction()" type="button" class="meh" value="Rock's gonna *****"></input>
-	<input onClick="myFunction()" type="button" class="meh" value="Trump will Run!"></input>
-	<input onClick="myFunction()" type="button" class="meh" value="Never gonna happen"></input>
+	<div class="pollback">GitHub is Crazzzzzy, Messes up the code?
+	<input onClick="myFunction()" type="button" class="meh" value="I stand by it!"></input>
+	<input onClick="myFunction()" type="button" class="meh" value="Crying is for losers"></input>
+	<input onClick="myFunction()" type="button" class="meh" value="Science B****h"></input>
 	</div>	
-	<button class="scroll" onClick="location.href='Trending_Now.html'">Previous</button>
+	<button class="scroll" onClick="on()">Previous</button>
 	<button  onClick="myFunction()" class="scroll">See Result</button>
-	<button class="scroll" onClick="location.href='Trending_Now.html'">Next</button>
+	<button class="scroll" onClick="location.href='Next_Poll.html'">Next</button>
 	<img id="back" src="Back.png" onClick="location.href='North_Poll_Categories.html'">
 	<img id="Home" src="web.png" onClick="location.href='North_Poll_Homepage.html'">
 </div>
