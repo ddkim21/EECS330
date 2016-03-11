@@ -1,14 +1,18 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Multiple Choice</title>
-	<link rel="stylesheet" href="Multiple_Choice.css" /> <!-- include css file -->
-	<link rel="stylesheet" href="interface.css"/>
-	<meta charset="utf-8" />
+	<title>Select One</title>
+	<link rel="stylesheet" href="North_poll_select_One.css"> <!-- include css file -->
+	<link rel="stylesheet" href="box.css">
+	<link rel="stylesheet" href="arrows.css">
+	<meta charset="utf-8">
 </head>
 
 <body>
+	
 	<div class="box">
+		<p class="texxt" align="center"><b> USER CAN SELECT MULTIPLE!</b></p>
+		<div>
 		<form id="selections">
 			<input id = "choice1" class = "selection" value = "Option 1"></input>
 			<input id = "choice2" class = "selection" value = "Option 2"></input>
@@ -19,11 +23,12 @@
 			<input id = "choice7" class = "selection" value = "Option 7" style="visibility: hidden;"></input>
 			<input id = "choice8" class = "selection" value = "Option 8" style="visibility: hidden;"></input>
 		</form>
-
+		
 		<button id="add" onClick="addSelection()">&plus;</button>
 		<button id="remove" onClick="removeSelection()">&minus;</button>
-
-
+		</div>
+		<img id="Back" class="Pic" src="Back.png" onClick="location.href='North_Poll_CreatPoll.html'">	
+        <img id="Forward" class="Pic" src="Forward.png" onClick="location.href='North_Poll_PublishPoll.html'">
 	</div>
 
 	<script>
