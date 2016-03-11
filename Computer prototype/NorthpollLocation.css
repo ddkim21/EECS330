@@ -1,9 +1,57 @@
+.instruct {
+	font-family: verdana;
+	font-size: 18px;
+	color: white;
+	text-shadow:inset 0px 0px 2px #EEEEEE;
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-top: 50px;
+
+}
+#buttons { 
+	text-align: center;
+}
+.but1 {
+	position: relative;
+	font-family: verdana;
+	font-size: 16px;
+	font-style: bold;
+	width: 160px;
+	height: 25px;
+	float: right;
+	background-color: white;
+	color: darkred;
+	text-shadow:inset 0px 0px 2px #EEEEEE;
+	margin-top: 15px;
+	margin-right: 80px;
+	border-radius: 16px;
+	border:none;
+	box-shadow: 0px 0px 2px #EEEEEE;
+}
+.subinstruct {
+	position: relative;
+    font-family: verdana;
+	font-size: 18px;
+	color: white;
+	text-shadow:inset 0px 0px 2px #EEEEEE;
+	margin-left: 35px;
+	margin-top: 160px;
+}
+#Set {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 15px;
+	margin-right: 220px;
+	opacity: 0.7;
+}
 #Back {
 	position: relative;
 	width: 40px;
 	height: 40px;
 	border-radius: 4px;
-	margin-top: 20px;
+	margin-top: 100px;
 	float: left;
 	margin-left: 60px;;
 }
@@ -12,98 +60,12 @@
 	width: 40px;
 	height: 40px;
 	border-radius: 4px;
-	margin-top: 20px;
+	margin-top: 60px;
 	margin-right: 60px;
 	float: right;
 }
-.Pic2 {
-	position: relative;
-	width: 300px;
-	height: 200px;
-	border-radius: 4px;
-	margin-top: 20px;
-	margin-right: 20px;
-	margin-left: 40px
-	
+#NumRangeStart {
+	width: 160px;
+	height: 25px;
+	margin-left: 140px;
 }
-
-
-
-.but1 {
-	position: relative;
-	width: 120px;
-	height: 40px;
-	border-radius: 4px;
-	margin-top: 3px;
-	margin-left: 30px;
-	margin-right: 16px;
-}
-.instruct {
-	font-family: verdana;
-	font-size: 15px;
-	color: white;
-	text-shadow:inset 0px 0px 2px #EEEEEE;
-	margin-left: 35px;
-	margin-top: 30px;
-
-}
-.heading {
-	font-family: verdana;
-	font-size: 20px;
-	color: white;
-	text-shadow:inset 0px 0px 2px #EEEEEE;
-	margin-left: 35px;
-	margin-top: 15px;
-
-}
-.subinstruct {
-    font-family: verdana;
-	font-size: 14px;
-	color: white;
-	text-shadow:inset 0px 0px 2px #EEEEEE;
-	margin-left: 50px;
-	margin-top: 5px;
-}
-#NumRangeStart,#NumRangeEnd {
-	margin-left: 120px;
-	border:none;
-	background-color: white;
-	width: 50px;
-	height: 30px;
-	border-radius: 2px;
-}
-
-.but1:hover, .but2.active
-{
-    border-top:Green 3px solid;
-    border-bottom:Green 3px solid;
-}
-.but1:active, .but2.active
-{
-    border-top:Green 2px solid;
-    border-bottom:Green 2px solid;
-    background: Green
-}
-.but2 {
-	font-family: verdana;
-	font-size: 14px;
-	font-style: bold;
-	width: 150px;
-	height: 40px;
-	float: right;
-	background-color: white;
-	opacity: 0.6;
-	color: darkred;
-	text-shadow:inset 0px 0px 2px #EEEEEE;
-	margin-right: 110px;
-	margin-top: 30px;
-	border-radius: 16px;
-	border:none;
-	box-shadow: 0px 0px 2px #EEEEEE;
-}
-#hi {
-	position: relative;
-	width: 300px;
-	height: 200px;
-	margin-left: 35px;
-	]
